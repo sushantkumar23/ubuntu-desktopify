@@ -46,12 +46,12 @@ while [ $# -gt 0 ]; do
             shift;;
         -h|--h|-help|--help)
             usage
-            exit 0;
+            exit 0;;
         *)
             echo "[!] ERROR: \"${1}\" is not a supported parameter."
             echo "${DESKTOP_ENVIRONMENT}"
             usage
-            exit 1;
+            exit 1;;
     esac
 done
 
