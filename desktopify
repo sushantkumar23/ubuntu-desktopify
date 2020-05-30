@@ -129,5 +129,5 @@ EOM
 # Disable Wifi powersaving to improve Pi Wifi performance
 if [ -e /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf ]; then
     echo "[+] Disabling the Wifi powersave mode"
-    sed -i 's/wifi.powersave = 3/wifi.powersave = 2' /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+    sed -i 's/wifi.powersave = 3/wifi.powersave = 2/' /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 fi
